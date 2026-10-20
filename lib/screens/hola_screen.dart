@@ -6,14 +6,14 @@ class HolaScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const Scaffold(
-      backgroundColor: Color.fromARGB(255, 254, 254, 254),
+      backgroundColor: Color(0xFF150F3A),
       body: Center(
         child: Text(
           'Hola',
           style: TextStyle(
             fontSize: 40,
             fontWeight: FontWeight.bold,
-            color: Color.fromARGB(255, 38, 0, 255),
+            color: Colors.white,
           ),
         ),
       ),
