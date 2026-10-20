@@ -13,7 +13,7 @@ class HolaScreen extends StatelessWidget {
           style: TextStyle(
             fontSize: 40,
             fontWeight: FontWeight.bold,
-            color: Color.fromARGB(255, 9, 255, 0),
+            color: Color.fromARGB(255, 38, 0, 255),
           ),
         ),
       ),
